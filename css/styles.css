@@ -1,0 +1,16 @@
+/* Author:Abish
+Date:24-4-2024 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-warning: #ee7c0d;
+    --nav-height: 125px;
+   
+
+}
