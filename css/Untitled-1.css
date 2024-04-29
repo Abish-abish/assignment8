@@ -1,0 +1,87 @@
+
+@media (min-width: 1500px) {
+ 
+    .logoContainer img {
+        max-width: calc(100% - 20px); /* Example dynamic image width */
+        width: auto;
+        height: auto;
+    }
+    .menu_div a{
+        font-size: calc(2rem + 1vw);
+    }
+     .welcome {
+        font-size: calc(0.5rem + 1vw);
+    }
+    .home-enviornment {
+        font-size: calc(0.8rem + 1vw);
+    }
+    .profileImg {
+        max-width: calc(100% - 20px); /* Example dynamic image width */
+        width: auto;
+        height: auto;
+        border-radius: calc(5px + 0.5vw); /* Dynamic border radius */
+
+    }
+
+    .container {
+        max-width: 90%!important; 
+    }
+    .film-container {
+        max-width: 90%; 
+    }
+    
+    .text-decoration-none {
+        font-size: calc(2rem + 1vw);
+    }
+    
+    .maincontainer {
+        min-height: 100vh;
+    }
+    .mainWrapper {
+        min-height: 100vh;
+    }
+}
+
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 90%; 
+        padding: calc(10px + 0.5vw) calc(20px + 1vw); /* Dynamic padding top/bottom left/right */
+    }
+    
+    h1 {
+        font-size: calc(2rem + 1vw); /* Dynamic font size */
+    }
+    
+    img {
+        max-width: calc(100% - 20px); /* Example dynamic image width */
+        width: auto;
+        height: auto;
+        border-radius: calc(5px + 0.5vw); /* Dynamic border radius */
+    }
+}
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 90%; 
+        padding-top: calc(10px + 0.5vw); /* Dynamic padding top */
+        padding-bottom: calc(10px + 0.5vw); /* Dynamic padding bottom */
+        padding-left: calc(20px + 1vw); /* Dynamic padding left */
+        padding-right: calc(20px + 1vw); /* Dynamic padding right */
+    }
+    
+    h1 {
+        font-size: calc(2rem + 1vw); /* Dynamic font size */
+    }
+    
+    img {
+        max-width: calc(100% - 20px); /* Example dynamic image width */
+        width: auto;
+        height: auto;
+        border-radius: calc(5px + 0.5vw); /* Dynamic border radius */
+    }
+}
